@@ -17,7 +17,7 @@ public class CMAssignRoles extends LIMSLogin {
 	@Test
 	public void CMAssignRoleMethod() throws Exception {
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.findElement(By.name("loginUserName")).sendKeys(properties.getProperty("AdminUser_Login"));
 		Thread.sleep(1000);
 		driver.findElement(By.name("loginPassword")).sendKeys(properties.getProperty("Password"));
