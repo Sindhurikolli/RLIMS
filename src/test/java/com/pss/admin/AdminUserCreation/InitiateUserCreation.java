@@ -134,7 +134,7 @@ public class InitiateUserCreation extends AdminLoginDetails {
 	                if (perPageNoOfRecordsPresent > 1) {
 	                    for (int i = 1; i <= perPageNoOfRecordsPresent; i++) {
 	                        String AppUserFullName = driver.findElement(By.xpath("//*[@id=\"usersTableContainer\"]/div/table/tbody/tr[ " + i + " ]/td[1]")).getText();//documentTypeName
-	                        System.out.println("UserFullName: "+UserFullName);
+	                        System.out.println("UserFullName: "+AppUserFullName);
 	                        if (UserFullName.equalsIgnoreCase(UserFullName)) {
 	                            driver.findElement(By.xpath("//*[@id=\"usersTableContainer\"]/div/table/tbody/tr[ " + i + " ]/td[1]")).click();
 	                            isRecordSelectedForUser = true;

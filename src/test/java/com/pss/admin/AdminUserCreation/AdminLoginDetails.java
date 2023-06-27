@@ -81,7 +81,7 @@ public class AdminLoginDetails  {
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			throw new RuntimeException("qmsUIProperties.properties not found at " + propertyFilePath);
+			throw new RuntimeException("LimsUIProperties.properties not found at " + propertyFilePath);
 		}
 	
 		
