@@ -70,13 +70,15 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 		document.add(new Paragraph("                                     "));
 		document.add(new Paragraph("                                     "));
 		sno++;
-		WebDriverWait wait = new WebDriverWait(driver, 240);
-		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='sampleRegPageInSample.do']")));
-		JavascriptExecutor jse1 = (JavascriptExecutor) driver;
-		WebElement element1 = driver.findElement(By.cssSelector("a[href='sampleRegPageInSample.do']"));
-		/* jse1.executeScript("arguments[0].scrollIntoView(true);", element1); */
-		Thread.sleep(1000);
-		jse1.executeScript("arguments[0].click();", element1);
+//		WebDriverWait wait = new WebDriverWait(driver, 240);
+//		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='sampleRegPageInSample.do']")));
+//		JavascriptExecutor jse1 = (JavascriptExecutor) driver;
+//		WebElement element1 = driver.findElement(By.cssSelector("a[href='sampleRegPageInSample.do']"));
+//		jse1.executeScript("arguments[0].scrollIntoView(true);", element1);
+//		Thread.sleep(1000);
+//		jse1.executeScript("arguments[0].click();", element1);
+		Helper.waitLoadRecords(driver, By.cssSelector("a[href='sampleRegPageInSample.do']"));
+		Helper.clickElement(driver, By.cssSelector("a[href='sampleRegPageInSample.do']"));
 		document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Click on Sample Registration", sno, false);
 		Thread.sleep(4000);
 		methodTocreateSampleRegistration();
