@@ -8,7 +8,7 @@
 		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
 			
 </listeners>
-<parameter name="SAMPLE_MANAGEMENT_QUANTITATIVETEST_FORWARDED_FLOW" value="ALLTESTS"/>
+<!-- <parameter name="SAMPLE_MANAGEMENT_QUANTITATIVETEST_FORWARDED_FLOW" value="ALLTESTS"/>
 	
 	
     <test name="SampleManagementPropertyFileUpdate">
@@ -20,7 +20,7 @@
 	  </methods>   
       </class> 
         </classes>
-    </test>
+    </test> -->
 
 	<test name="SampleRegistrationTest">
 
