@@ -26,10 +26,10 @@
 
 		<classes>
 		
-			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration" />
+ 		    <class name = "com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration" />
 			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationApprove" />
 			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantity" />
-			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove" /> 
 			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTestsJobAllotment" /> 
 			  <class name = "com.pss.lims.sm.InternalForwardFlow.MultiJobWorksheetPrint" /> 
 			 <class name = "com.pss.lims.sm.InternalForwardFlow.MutiTestsJobResultsSMFullVersionInternal" /> 
