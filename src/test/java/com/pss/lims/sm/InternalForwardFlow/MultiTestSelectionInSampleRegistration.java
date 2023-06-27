@@ -71,7 +71,7 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 		document.add(new Paragraph("                                     "));
 		sno++;
 		WebDriverWait wait = new WebDriverWait(driver, 240);
-		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='sampleRegPageInSample.do'")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='sampleRegPageInSample.do']")));
 		JavascriptExecutor jse1 = (JavascriptExecutor) driver;
 		WebElement element1 = driver.findElement(By.cssSelector("a[href='sampleRegPageInSample.do']"));
 		jse1.executeScript("arguments[0].scrollIntoView(true);", element1);

@@ -18,6 +18,18 @@
 	<ADMINURL>http://192.168.1.110:8090/ADMINTEST</ADMINURL>
 	<LIMSLoginUrl>http://192.168.1.110:8093/LIMSTEST</LIMSLoginUrl>
 	<REGISTRATIONLoginUrl>http://192.168.1.110:5151/REGISTRATION/Login.do</REGISTRATIONLoginUrl>
+	<!--users Start -->
+	<Initiator_Login>SMAUTO4</Initiator_Login> 
+	<SampleManager_Login>SMAUTO4</SampleManager_Login> 
+	<Reviewer>SMAUTO5</Reviewer> 
+	<Approver_Login>SMAUTO6</Approver_Login> 
+	<Analyst>SMAUTO4</Analyst> 
+	<MasterCreator_Login>SMAUTO4</MasterCreator_Login> 
+	<Reviewer_In_JobAllotment>SMAUTO 6</Reviewer_In_JobAllotment> 
+	<First_Name>SMAUTO</First_Name> 
+	<LastName>6</LastName> 
+	<MyJobUserLastName>SMAUTO 6</MyJobUserLastName> 
+		<!--users End -->
 	</properties>
 	<build>
 
