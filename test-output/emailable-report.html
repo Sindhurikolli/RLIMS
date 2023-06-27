@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">com.mycompany_LIMS_jar_1.0-SNAPSHOT</th></tr>
+<tr><td><a href="#t0">UsersPropertiesFileUpdate</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">309</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">SampleRegistrationTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,787</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">58,096</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">com.mycompany_LIMS_jar_1.0-SNAPSHOT</th></tr></tbody><tbody id="t0"><tr><th colspan="4">UsersPropertiesFileUpdate &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.pss.lims.PropertiesFileUpdate.UsersPropertiesFileUpdate</td><td><a href="#m0">UsersUpdate</a></td><td rowspan="1">1687862767554</td><td rowspan="1">254</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">SampleRegistrationTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1687862825628</td><td rowspan="1">-1687862825628</td></tr><tr class="failedeven"><td><a href="#m2">testIT</a></td><td rowspan="1">1687862825622</td><td rowspan="1">-1687862825622</td></tr><tr><th colspan="4">SampleRegistrationTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration</td><td><a href="#m3">createSampleRegistration</a></td><td rowspan="1">1687862775557</td><td rowspan="1">50054</td></tr></tbody>
+</table>
+<h2>UsersPropertiesFileUpdate</h2><h3 id="m0">com.pss.lims.PropertiesFileUpdate.UsersPropertiesFileUpdate#UsersUpdate</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>SMAUTO4</td><td>SMAUTO4</td><td>SMAUTO5</td><td>SMAUTO6</td><td>SMAUTO4</td><td>SMAUTO4</td><td>SMAUTO 6</td><td>SMAUTO</td><td>6</td><td>SMAUTO 6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SampleRegistrationTest</h2><h3 id="m1">com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Test skipped due to a detected failure in the overall suite.
+	at com.pss.lims.Listners.SuiteFailingInvokedMethodListener.beforeInvocation(SuiteFailingInvokedMethodListener.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration#testIT</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=createSampleRegistration status=FAILURE method=MultiTestSelectionInSampleRegistration.createSampleRegistration()[pri:0, instance:com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration@2353b3e6] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Test skipped due to a detected failure in the overall suite.
+	at com.pss.lims.Listners.SuiteFailingInvokedMethodListener.beforeInvocation(SuiteFailingInvokedMethodListener.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration#createSampleRegistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2TQFBEG&apos;, ip: &apos;192.168.1.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\krmoh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10036f342d142b7325c4aa40c8abac1e
+*** Element info: {Using=id, value=productsTableContainer}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration.selectRecordForProduct(MultiTestSelectionInSampleRegistration.java:431)
+	at com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration.methodTocreateSampleRegistration(MultiTestSelectionInSampleRegistration.java:118)
+	at com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration.createSampleRegistration(MultiTestSelectionInSampleRegistration.java:82)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

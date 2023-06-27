@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [com.mycompany_LIMS_jar_1.0-SNAPSHOT]">
+  <parameter name="First_Name" value="SMAUTO"/>
+  <parameter name="Analyst" value="SMAUTO4"/>
+  <parameter name="MyJobUserLastName" value="SMAUTO 6"/>
+  <parameter name="MasterCreator_Login" value="SMAUTO4"/>
+  <parameter name="Reviewer_In_JobAllotment" value="SMAUTO 6"/>
+  <parameter name="LastName" value="6"/>
+  <parameter name="SampleManager_Login" value="SMAUTO4"/>
+  <parameter name="Reviewer" value="SMAUTO5"/>
+  <parameter name="Approver_Login" value="SMAUTO6"/>
+  <parameter name="Initiator_Login" value="SMAUTO4"/>
+  <listeners>
+    <listener class-name="com.pss.lims.Listners.TestListenerSampleManagement"/>
+    <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+  </listeners>
+  <test thread-count="5" name="SampleRegistrationTest(failed)">
+    <classes>
+      <class name="com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration">
+        <methods>
+          <include name="testIT"/>
+          <include name="setUp"/>
+          <include name="createSampleRegistration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration -->
+    </classes>
+  </test> <!-- SampleRegistrationTest(failed) -->
+</suite> <!-- Failed suite [com.mycompany_LIMS_jar_1.0-SNAPSHOT] -->
