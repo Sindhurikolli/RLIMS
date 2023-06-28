@@ -448,7 +448,7 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 //			System.out.println("parts:" + parts.toString());
 			try {
 				totalNoOfRecords = Integer.parseInt(parts[1].trim());
-				System.out.println(totalNoOfRecords);
+				System.out.println("No Of Products = "+totalNoOfRecords);
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}
