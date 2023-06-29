@@ -23,7 +23,7 @@
 <parameter name="SampleManager_Login" value="SMAUTO4"/>
 <parameter name="Reviewer" value="SMAUTO5"/>
 <parameter name="Approver_Login" value="SMAUTO6"/>
-<parameter name="Analyst" value="SMAUTO4"/>
+<parameter name="Analyst" value="SMAUTO6"/>
 <parameter name="MasterCreator_Login" value="SMAUTO4"/>
 <parameter name="Reviewer_In_JobAllotment" value="SMAUTO 6"/>
 <parameter name="First_Name" value="SMAUTO"/>
