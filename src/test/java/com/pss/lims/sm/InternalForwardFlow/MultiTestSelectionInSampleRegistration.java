@@ -317,7 +317,7 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 						"src/test/java/LIMSUIProperties/SampleManagement.properties");
 				properties.setProperty("AR_Number", arNo);
 //		        properties.setProperty("ACTION_ITEM_chgCtrlId", IncidentNo+"/A1");
-				properties.save();
+//				properties.save();
 				wait.until(ExpectedConditions
 						.presenceOfElementLocated(By.xpath(".//*[@id='modal-window']/div/div/div[3]/a")));
 				Thread.sleep(3000);
