@@ -28,7 +28,7 @@
 	<Reviewer_In_JobAllotment>SMAUTO 6</Reviewer_In_JobAllotment> 
 	<First_Name>SMAUTO</First_Name> 
 	<LastName>6</LastName> 
-	<MyJobUserLastName>SMAUTO 6</MyJobUserLastName> 
+	<MyJobUserLastName>6</MyJobUserLastName> 
 		<!--users End -->
 	</properties>
 	<build>
