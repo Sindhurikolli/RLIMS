@@ -83,7 +83,7 @@ public class MultiUsersCreationAndPasswordChangeAdminTest{
 
         for (int i = 0; i < RowNum - 1; i++) 
         {
-            XSSFRow row = sh.getRow(i + 1);
+            XSSFRow row = sh.getRow(i + 5);
             for (int j = 0; j < ColNum; j++) 
             {
                 if (row == null)
