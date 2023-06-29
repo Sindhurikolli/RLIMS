@@ -80,7 +80,7 @@ public class SampleResult extends SMLoginDetails {
 		writer.close();
 		Desktop desktop = Desktop.getDesktop();
 		File file = new File(output);
-		desktop.open(file);
+//		desktop.open(file);
 
 	}
 
@@ -101,7 +101,8 @@ public class SampleResult extends SMLoginDetails {
 			sno++;
 			Select lifeCycle = new Select(driver.findElement(By.id("approvedByIdSampleResult")));
 			Thread.sleep(2000);
-			lifeCycle.selectByVisibleText(properties.getProperty("LifeCycle_Name"));
+//			lifeCycle.selectByVisibleText(properties.getProperty("LifeCycle_Name"));
+			lifeCycle.selectByIndex(1);
 			document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Select LifeCycle", sno, false);
 			Thread.sleep(2000);
 			sno++;
