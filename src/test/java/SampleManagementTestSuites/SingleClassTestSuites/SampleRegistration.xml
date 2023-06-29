@@ -28,7 +28,7 @@
 <parameter name="Reviewer_In_JobAllotment" value="SMAUTO 6"/>
 <parameter name="First_Name" value="SMAUTO"/>
 <parameter name="LastName" value="6"/>
-<parameter name="MyJobUserLastName" value="SMAUTO 6"/>
+<parameter name="MyJobUserLastName" value="6"/>
 
 	<test name="UsersPropertiesFileUpdate">
 		<classes>
