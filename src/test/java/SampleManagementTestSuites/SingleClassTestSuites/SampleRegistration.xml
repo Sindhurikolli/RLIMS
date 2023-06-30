@@ -8,7 +8,7 @@
 		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
 			
 </listeners>
-<!-- <parameter name="Initiator_Login" value="${Initiator_Login}"/>
+<parameter name="Initiator_Login" value="${Initiator_Login}"/>
 <parameter name="SampleManager_Login" value="${SampleManager_Login}"/>
 <parameter name="Reviewer" value="${Reviewer}"/>
 <parameter name="Approver_Login" value="${Approver_Login}"/>
@@ -17,9 +17,9 @@
 <parameter name="Reviewer_In_JobAllotment" value="${Reviewer_In_JobAllotment}"/>
 <parameter name="First_Name" value="${First_Name}"/>
 <parameter name="LastName" value="${LastName}"/>
-<parameter name="MyJobUserLastName" value="${MyJobUserLastName}"/> -->
+<parameter name="MyJobUserLastName" value="${MyJobUserLastName}"/>
 
-<parameter name="Initiator_Login" value="SMAUTO4"/>
+<!-- <parameter name="Initiator_Login" value="SMAUTO4"/>
 <parameter name="SampleManager_Login" value="SMAUTO4"/>
 <parameter name="Reviewer" value="SMAUTO5"/>
 <parameter name="Approver_Login" value="SMAUTO6"/>
@@ -28,7 +28,7 @@
 <parameter name="Reviewer_In_JobAllotment" value="SMAUTO 6"/>
 <parameter name="First_Name" value="SMAUTO"/>
 <parameter name="LastName" value="6"/>
-<parameter name="MyJobUserLastName" value="6"/>
+<parameter name="MyJobUserLastName" value="6"/> -->
 
 	<test name="UsersPropertiesFileUpdate">
 		<classes>
