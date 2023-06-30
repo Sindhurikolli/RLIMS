@@ -8,19 +8,25 @@
 		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
 			
 </listeners>
-<parameter name="SAMPLE_MANAGEMENT_QUANTITATIVETEST_FORWARDED_FLOW" value="ALLTESTS"/>
-	
-	
-    <test name="SampleManagementPropertyFileUpdate">
-        <classes>
-      <class name="com.pss.lims.PropertiesFileUpdate.SampleManagementPropertyFileUpdate">
-      
-      <methods>
-		<include name="ALL_TESTS"/>
-	  </methods>   
-      </class> 
-        </classes>
-    </test>
+<parameter name="Initiator_Login" value="${Initiator_Login}"/>
+<parameter name="SampleManager_Login" value="${SampleManager_Login}"/>
+<parameter name="Reviewer" value="${Reviewer}"/>
+<parameter name="Approver_Login" value="${Approver_Login}"/>
+<parameter name="Analyst" value="${Analyst}"/>
+<parameter name="MasterCreator_Login" value="${MasterCreator_Login}"/>
+<parameter name="Reviewer_In_JobAllotment" value="${Reviewer_In_JobAllotment}"/>
+<parameter name="First_Name" value="${First_Name}"/>
+<parameter name="LastName" value="${LastName}"/>
+<parameter name="MyJobUserLastName" value="${MyJobUserLastName}"/>
+
+
+	<test name="UsersPropertiesFileUpdate">
+		<classes>
+			<class
+				name="com.pss.lims.PropertiesFileUpdate.UsersPropertiesFileUpdate">
+			</class>
+		</classes>
+	</test>
 
 	<test name="SampleQuantityTest">
 
