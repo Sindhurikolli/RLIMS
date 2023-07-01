@@ -113,7 +113,8 @@ public class MultiTestsJobAllotment extends SMLoginDetails {
 //			Thread.sleep(2000);
 //			isRecordSelected1 = selectRecordForJobAllotment(count1, isRecordSelected1, arNumber);
 			sno++;
-			driver.findElement(By.id("viewAndAllotBtnInJobAllotmentForm")).click();
+//			driver.findElement(By.id("viewAndAllotBtnInJobAllotmentForm")).click();
+			Helper.scrollAndClickElement(driver, By.id("viewAndAllotBtnInJobAllotmentForm"));
 			document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Click on View & Allot", sno, false);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(
 					"#TestGridInLimsJobAllotMent > div > div.jtable-busy-message[style='display: none;']")));
