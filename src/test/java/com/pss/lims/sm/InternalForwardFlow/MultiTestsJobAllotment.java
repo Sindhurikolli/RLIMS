@@ -67,8 +67,10 @@ public class MultiTestsJobAllotment extends SMLoginDetails {
 		document.add(new Paragraph("                                     "));
 		sno++;
 		WebDriverWait wait = new WebDriverWait(driver, 240);
-		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='jobAllotmentInSample.do']")));
-		driver.findElement(By.cssSelector("a[href='jobAllotmentInSample.do']")).click();
+//		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='jobAllotmentInSample.do']")));
+//		driver.findElement(By.cssSelector("a[href='jobAllotmentInSample.do']")).click();
+		Helper.waitLoadRecords(driver, By.cssSelector("a[href='jobAllotmentInSample.do']"));
+		Helper.clickElement(driver, By.cssSelector("a[href='jobAllotmentInSample.do']"));
 		document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Click on JobAllotment", sno, false);
 		wait.until(ExpectedConditions.presenceOfElementLocated(
 				By.cssSelector("#jobAllotmentTable > div > div.jtable-busy-message[style='display: none;']")));
