@@ -8,7 +8,7 @@ import com.pss.lims.sm.InternalForwardFlow.SampleQuantity;
 public class LoadSampleQuantity extends SMLoginDetails{
 	@Test
 	
-    public void methodToCreateMultiSamplReg( ) throws Throwable {
+    public void methodToCreateMultiSampleQuantity( ) throws Throwable {
         Thread.sleep(1000);
 
         String NoOfRuns = properties.getProperty("NoOfRuns");
