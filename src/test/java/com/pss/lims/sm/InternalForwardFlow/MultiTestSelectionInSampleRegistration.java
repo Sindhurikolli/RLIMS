@@ -86,7 +86,7 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 		writer.close();
 		Desktop desktop = Desktop.getDesktop();
 		File file = new File(output);
-		desktop.open(file);
+//		desktop.open(file);
 
 	}
 
@@ -106,7 +106,7 @@ public class MultiTestSelectionInSampleRegistration extends SMLoginDetails {
 		document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Click on Select", sno, false);
 		Thread.sleep(5000);
 		sno++;
-		driver.findElement(By.id("locTreeInLimsSmReg_3_span")).click();
+		driver.findElement(By.id("locTreeInLimsSmReg_4_span")).click();
 		Thread.sleep(3000);
 		//driver.findElement(By.linkText(properties.getProperty("Location_Name"))).click();
 //		document = Utilities.getScreenShotAndAddInLogDoc(driver, document, "Click on Location", sno, false);
