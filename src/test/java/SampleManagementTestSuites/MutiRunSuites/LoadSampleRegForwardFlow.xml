@@ -42,7 +42,10 @@
 
 		<classes>
 		
-			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleReg" />
+	<!-- 		<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleReg" />
+ -->
+ 
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationWithMultiProducts" />
 			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleRegApproval" />
 			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleQuantity" />
 			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleQuantityApproval" />
